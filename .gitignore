@@ -12,3 +12,6 @@
 
 # exclude .png files
 *.png
+
+# exclude .tiff files
+*.tiff
