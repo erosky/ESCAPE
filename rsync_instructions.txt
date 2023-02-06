@@ -1,0 +1,9 @@
+(--dry-run) --info=progress2 --ignore-existing --include '*.png' --include '*hist.mat' --include '*.nc' --include '*.mp4' --include '*.seq' --exclude '*' 
+
+--include '*.tiff'
+--include '*pd.mat'
+
+
+Machines:
+emrosky@gabor.phy.mtu.edu:
+

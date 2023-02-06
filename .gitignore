@@ -7,6 +7,9 @@
 # exclude hist.mat files
 *hist.mat
 
+# exclude pd.mat files
+*pd.mat
+
 # exclude .seq files
 *.seq
 
