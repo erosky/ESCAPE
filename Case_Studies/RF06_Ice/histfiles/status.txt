@@ -1,0 +1,112 @@
+2022/06/13 22:02:30.9487 on gabor :	Prepared Sequence 1 from config file /hulk/data/Elise/ESCAPE/rf06_ice/whole/holoviewer.cfg in 0.59 s. 0.11 s config load time, 0.41 s misc time, and 0.08 s parpool start time.
+
+2022/06/13 22:02:31.0218 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/13 22:02:31.0308 on gabor :	Reconstructing RF06_2022-06-09-22-42-09-471548.png.
+
+2022/06/13 22:39:51.1180 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-09-471548.png in 2240.11 seconds using 1 workers on gabor.phy
+With timing 0.03 s setup, 17.25 s  prerecon with 2.60 s filter time and 0.58 s determine threshold time, 2168.33 s recon with 1.000 loop efficiency, 0.45 s postrecon, 53.36 s pStats, 0.42 s save.
+
+2022/06/13 22:39:51.1320 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/13 22:39:51.1415 on gabor :	Reconstructing RF06_2022-06-09-22-42-06-482680.png.
+
+2022/06/13 23:30:18.2951 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-06-482680.png in 3027.16 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 16.42 s  prerecon with 2.64 s filter time and 0.55 s determine threshold time, 2492.22 s recon with 1.000 loop efficiency, 0.43 s postrecon, 19.04 s pStats, 497.47 s save.
+
+2022/06/13 23:30:18.3602 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/13 23:30:18.3671 on gabor :	Reconstructing RF06_2022-06-09-22-42-10-068546.png.
+
+2022/06/14 00:08:58.6713 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-10-068546.png in 2320.28 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.50 s  prerecon with 1.94 s filter time and 0.44 s determine threshold time, 2231.25 s recon with 1.000 loop efficiency, 0.46 s postrecon, 73.61 s pStats, 0.19 s save.
+
+2022/06/14 00:08:58.7088 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 00:08:58.7174 on gabor :	Reconstructing RF06_2022-06-09-22-42-10-367541.png.
+
+2022/06/14 00:41:59.0838 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-10-367541.png in 1980.36 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.22 s  prerecon with 1.70 s filter time and 0.46 s determine threshold time, 1925.32 s recon with 1.000 loop efficiency, 0.41 s postrecon, 40.09 s pStats, 0.13 s save.
+
+2022/06/14 00:41:59.1043 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 00:41:59.1122 on gabor :	Reconstructing RF06_2022-06-09-22-42-01-700178.png.
+
+2022/06/14 01:17:07.1156 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-01-700178.png in 2107.99 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.88 s  prerecon with 2.04 s filter time and 0.46 s determine threshold time, 2041.89 s recon with 1.000 loop efficiency, 0.42 s postrecon, 48.62 s pStats, 1.90 s save.
+
+2022/06/14 01:17:07.1296 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 01:17:07.1377 on gabor :	Reconstructing RF06_2022-06-09-22-42-00-804163.png.
+
+2022/06/14 01:46:24.9401 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-00-804163.png in 1757.79 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.57 s  prerecon with 2.17 s filter time and 0.45 s determine threshold time, 1722.19 s recon with 1.000 loop efficiency, 0.42 s postrecon, 19.36 s pStats, 1.08 s save.
+
+2022/06/14 01:46:24.9543 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 01:46:24.9617 on gabor :	Reconstructing RF06_2022-06-09-22-42-04-689517.png.
+
+2022/06/14 02:16:11.8026 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-04-689517.png in 1786.83 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.73 s  prerecon with 2.25 s filter time and 0.45 s determine threshold time, 1748.91 s recon with 1.000 loop efficiency, 0.41 s postrecon, 22.27 s pStats, 0.38 s save.
+
+2022/06/14 02:16:11.8161 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 02:16:11.8244 on gabor :	Reconstructing RF06_2022-06-09-22-42-03-194462.png.
+
+2022/06/14 02:47:35.4515 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-03-194462.png in 1883.61 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.46 s  prerecon with 2.06 s filter time and 0.45 s determine threshold time, 1823.74 s recon with 1.000 loop efficiency, 0.42 s postrecon, 28.50 s pStats, 16.25 s save.
+
+2022/06/14 02:47:35.4656 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 02:47:35.4732 on gabor :	Reconstructing RF06_2022-06-09-22-42-08-873620.png.
+
+2022/06/14 03:23:25.6006 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-08-873620.png in 2150.11 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.72 s  prerecon with 2.15 s filter time and 0.45 s determine threshold time, 2061.61 s recon with 1.000 loop efficiency, 0.44 s postrecon, 55.20 s pStats, 17.84 s save.
+
+2022/06/14 03:23:25.6229 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 03:23:25.6313 on gabor :	Reconstructing RF06_2022-06-09-22-42-09-770246.png.
+
+2022/06/14 03:52:37.2487 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-09-770246.png in 1751.62 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.45 s  prerecon with 1.78 s filter time and 0.45 s determine threshold time, 1717.89 s recon with 1.000 loop efficiency, 0.42 s postrecon, 18.52 s pStats, 0.21 s save.
+
+2022/06/14 03:52:37.2770 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 03:52:37.2850 on gabor :	Reconstructing RF06_2022-06-09-22-42-01-999545.png.
+
+2022/06/14 04:23:33.5133 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-01-999545.png in 1856.22 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.40 s  prerecon with 1.72 s filter time and 0.47 s determine threshold time, 1812.70 s recon with 1.000 loop efficiency, 0.43 s postrecon, 27.38 s pStats, 1.13 s save.
+
+2022/06/14 04:23:33.5261 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 04:23:33.5331 on gabor :	Reconstructing RF06_2022-06-09-22-42-08-275872.png.
+
+2022/06/14 04:55:19.3672 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-08-275872.png in 1905.83 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.68 s  prerecon with 1.98 s filter time and 0.50 s determine threshold time, 1857.48 s recon with 1.000 loop efficiency, 0.43 s postrecon, 32.86 s pStats, 0.19 s save.
+
+2022/06/14 04:55:19.3803 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 04:55:19.3860 on gabor :	Reconstructing RF06_2022-06-09-22-42-04-988541.png.
+
+2022/06/14 05:29:58.4729 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-04-988541.png in 2079.08 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.16 s  prerecon with 1.80 s filter time and 0.45 s determine threshold time, 2013.72 s recon with 1.000 loop efficiency, 0.43 s postrecon, 50.27 s pStats, 0.26 s save.
+
+2022/06/14 05:29:58.4854 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 05:29:58.4932 on gabor :	Reconstructing RF06_2022-06-09-22-42-04-091637.png.
+
+2022/06/14 05:59:28.8044 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-04-091637.png in 1770.30 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.29 s  prerecon with 1.68 s filter time and 0.45 s determine threshold time, 1723.09 s recon with 1.000 loop efficiency, 0.42 s postrecon, 18.17 s pStats, 14.13 s save.
+
+2022/06/14 05:59:28.8178 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 05:59:28.8269 on gabor :	Reconstructing RF06_2022-06-09-22-42-02-298543.png.
+
+2022/06/14 06:34:49.1263 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-02-298543.png in 2120.29 seconds using 1 workers on gabor.phy
+With timing 0.02 s setup, 14.20 s  prerecon with 1.82 s filter time and 0.45 s determine threshold time, 2050.88 s recon with 1.000 loop efficiency, 0.43 s postrecon, 53.99 s pStats, 0.54 s save.
+
+2022/06/14 06:34:49.1378 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 06:34:49.1444 on gabor :	Reconstructing RF06_2022-06-09-22-42-01-402100.png.
+
+2022/06/14 07:11:17.1556 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-01-402100.png in 2187.99 seconds using 1 workers on gabor.phy
+With timing 0.01 s setup, 14.14 s  prerecon with 1.67 s filter time and 0.46 s determine threshold time, 2110.46 s recon with 1.000 loop efficiency, 0.44 s postrecon, 62.07 s pStats, 0.60 s save.
+
+2022/06/14 07:11:17.1740 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 07:11:17.1823 on gabor :	Reconstructing RF06_2022-06-09-22-42-08-575107.png.
+
+2022/06/14 10:23:12.0583 on gabor :	Prepared Sequence 1 from config file /hulk/data/Elise/ESCAPE/rf06_ice/whole/holoviewer.cfg in 0.63 s. 0.12 s config load time, 0.44 s misc time, and 0.06 s parpool start time.
+
+2022/06/14 10:23:12.1191 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 10:23:12.1291 on gabor :	Reconstructing RF06_2022-06-09-22-42-03-493436.png.
+
+2022/06/14 11:00:33.8292 on gabor :	Finished reconstructing RF06_2022-06-09-22-42-03-493436.png in 2241.71 seconds using 1 workers on gabor.phy
+With timing 0.03 s setup, 17.57 s  prerecon with 2.23 s filter time and 0.59 s determine threshold time, 2170.52 s recon with 1.000 loop efficiency, 0.48 s postrecon, 51.99 s pStats, 0.83 s save.
+
+2022/06/14 11:00:33.8443 on gabor :	ReconHoloHist ver. 2017-01-20 part of HoloSuite (c) 2017 Jacob Fugal et al.
+2022/06/14 11:00:33.8530 on gabor :	Reconstructing RF06_2022-06-09-22-42-01-102365.png.
+

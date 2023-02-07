@@ -1,0 +1,4 @@
+Number of outages: 398
+Missed frames: 10632.2028
+Bright frames: 2231/51350
+Dark frames: 7980/51350
