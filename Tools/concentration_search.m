@@ -12,7 +12,7 @@ function [output_data] = concentration_search(cdp_ncfile)
     Bin = 13; % lower limit bin index
     Conc_threshold = 50.0; % #/cc/um
     
-    LWC_threshold = 0.5;
+    LWC_threshold = 0.1;
     cloud_time_threshold = 3;
 
     [i, t, utc] = cdp_nc_search(cdp_ncfile,LWC_threshold,cloud_time_threshold);
@@ -36,9 +36,9 @@ function [output_data] = concentration_search(cdp_ncfile)
     conc2 = conc2./1000;
     
     % Final data table to wite to csv
-    output_data = table('Size',[0 8],...
-                        'VariableTypes',{'datetime','datetime','int8','double','double','double','double','double'},...
-                        'VariableNames', ["StartTime", "EndTime", "Duration(s)", "StartTime(datenum)", "EndTime(datenum)", "LargeConc(cc)", "SmallConc(cc)", "MeanDiameter(um)"]);
+    output_data = table('Size',[0 9],...
+                        'VariableTypes',{'datetime','datetime','int8','double','double','double','double','double','double'},...
+                        'VariableNames', ["StartTime", "EndTime", "Duration(s)", "StartTime(datenum)", "EndTime(datenum)", "LargeConc(cc)", "SmallConc(cc)", "MeanDiameter(um)", "Average LWC(g/m3)"]);
     
     
     for p = 1 : length(i)
@@ -53,9 +53,11 @@ function [output_data] = concentration_search(cdp_ncfile)
         small_conc =sum(small_conc_avg);
         % average mean diameter
         avg_diam = mean(meandiam(i{p}(1):i{p}(end)));
+        % average total LWC
+        avg_lwc = mean(cdplwc(i{p}(1):i{p}(end)));
         
         if large_conc > Conc_threshold;
-           data = {utc{p}(1), utc{p}(2), length(i{p}), t{p}(1), t{p}(2), large_conc, small_conc, avg_diam};
+           data = {utc{p}(1), utc{p}(2), length(i{p}), t{p}(1), t{p}(2), large_conc, small_conc, avg_diam, avg_lwc};
            output_data = [output_data;data];
         end
 
