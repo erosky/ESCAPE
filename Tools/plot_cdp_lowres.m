@@ -27,7 +27,7 @@ function out = plot_cdp_escape(cdp_ncfile)
     
     %Concentration contour
     levels = 10.^(linspace(0,4,20));  %Log10 levels
-    contourf(datenum(time2), binsizes, conc2, levels, 'LineStyle', 'none');
+    contourf(datenum(time2(1:3:end)), binsizes, conc2(:,1:3:end), levels, 'LineStyle', 'none');
     datetick('x')
     set(gca,'ColorScale','log');
     grid on

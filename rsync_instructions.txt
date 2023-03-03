@@ -6,4 +6,6 @@
 
 Machines:
 emrosky@gabor.phy.mtu.edu:
+(campus) emrosky-sim@141.219.101.154:
+(laptop) simulations@127.0.1.1:
 

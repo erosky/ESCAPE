@@ -1,14 +1,14 @@
-function out = plot_cdp_escape(cdp_ncfile)
+function out = plot_cdp_escape(ncfile)
     %Plot a time series of CDP DSDs from SPICULE
     
     %Get data from the netCDF file
-    time = ncread(cdp_ncfile,'time');
-    conc = ncread(cdp_ncfile, 'PSD');
-    binsizes = ncread(cdp_ncfile, 'bins');
-    cdplwc = ncread(cdp_ncfile,'LWC');
-    meandiam = ncread(cdp_ncfile,'MVD');
-    flightnumber = upper(ncreadatt(cdp_ncfile, '/', 'NRCFlightNumber'));
-    flightdate = ncreadatt(cdp_ncfile, '/', 'FlightDate');
+    time = ncread(ncfile,'time');
+    conc = ncread(ncfile, 'PSD');
+    binsizes = ncread(ncfile, 'bins');
+    cdplwc = ncread(ncfile,'LWC');
+    meandiam = ncread(ncfile,'MVD');
+    flightnumber = upper(ncreadatt(ncfile, '/', 'NRCFlightNumber'));
+    flightdate = ncreadatt(ncfile, '/', 'FlightDate');
 
     
     %Reshape the concentration array into two dimensions

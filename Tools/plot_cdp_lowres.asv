@@ -19,6 +19,7 @@ function out = plot_cdp_escape(cdp_ncfile)
     % Reformat time to human readable format
     % Given in netcdf file as seconds since 1970-01-01 +0000
     time2 = datetime(1970,1,1) + seconds(time(:,1));
+    datenum(time2)
     
     %Make figure
     figure(1);
@@ -27,7 +28,7 @@ function out = plot_cdp_escape(cdp_ncfile)
     
     %Concentration contour
     levels = 10.^(linspace(0,4,20));  %Log10 levels
-    contourf(datenum(time2), binsizes, conc2, levels, 'LineStyle', 'none');
+    contourf(datenum(time2(1:2:end)), binsizes(1:2:end), conc2(1:2:end), levels, 'LineStyle', 'none');
     datetick('x')
     set(gca,'ColorScale','log');
     grid on

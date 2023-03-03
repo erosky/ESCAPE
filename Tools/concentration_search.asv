@@ -12,8 +12,8 @@ function [output_data] = concentration_search(cdp_ncfile)
     Bin = 13; % lower limit bin index
     Conc_threshold = 50.0; % #/cc/um
     
-    LWC_threshold = 0.5;
-    cloud_time_threshold = 3;
+    LWC_threshold = 0.4;
+    cloud_time_threshold = 7;
 
     [i, t, utc] = cdp_nc_search(cdp_ncfile,LWC_threshold,cloud_time_threshold);
     
@@ -49,19 +49,18 @@ function [output_data] = concentration_search(cdp_ncfile)
         large_conc_avg = mean(large_conc_array,2);
         small_conc_avg = mean(small_conc_array,2);
         % intagrate over small and large to get conc for each
-        large_conc = sum(large_conc_avg);
-        small_conc =sum(small_conc_avg);
+        large_conc = sum(large_conc_avg)
+        small_conc =sum(small_conc_avg)
         % average mean diameter
-        avg_diam = mean(meandiam(i{p}(1):i{p}(end)));
+        avg_diam = mean(meandiam(i{p}(1):i{p}(end)))
         
         if large_conc > Conc_threshold;
-           data = {utc{p}(1), utc{p}(2), length(i{p}), t{p}(1), t{p}(2), large_conc, small_conc, avg_diam};
+           data = {utc{p}(1), utc{p}(2), length(i{p}), t{p}(1), t{p}(2), large_conc, small_conc, avg_diam}
            output_data = [output_data;data];
         end
 
     end
     
-    rf_txt = split(flightnumber, "-");
+    rf_txt = split(flightnumber, "-"
     lwc_txt = split(num2str(LWC_threshold), ".");
-    output_filename = sprintf('cloudpasses_%s_%sp%slwc_%02dsec.csv', rf_txt{2}, lwc_txt{1}, lwc_txt{2}, cloud_time_threshold)
-    writetable(output_data, "../Case_Studies/CloudPassSearchResults/"+output_filename);
+    output_filename = sprintf('cloudpasses_%s_%sp%s_%2dsec.csv', flightnumber, lwc_txt{1}, lwc_txt{2}, cloud_time_threshold)
