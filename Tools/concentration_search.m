@@ -38,7 +38,7 @@ function [output_data] = concentration_search(cdp_ncfile)
     % Final data table to wite to csv
     output_data = table('Size',[0 9],...
                         'VariableTypes',{'datetime','datetime','int8','double','double','double','double','double','double'},...
-                        'VariableNames', ["StartTime", "EndTime", "Duration(s)", "StartTime(datenum)", "EndTime(datenum)", "LargeConc(cc)", "SmallConc(cc)", "MeanDiameter(um)", "Average LWC(g/m3)"]);
+                        'VariableNames', ["StartTime", "EndTime", "Duration_s", "StartTime_datenum", "EndTime_datenum", "LargeConc_cc", "SmallConc_cc", "MeanDiameter_um", "AverageLWC_g_m3"]);
     
     
     for p = 1 : length(i)

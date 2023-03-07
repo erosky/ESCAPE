@@ -39,7 +39,7 @@ function out = plot_cdp_escape(cdp_ncfile)
     c.Label.String = 'Concentration (#/cc/um)';
     title([flightnumber ' ' date]);
     
-    %Mean Diameter
+    %Vertical Velocity
     ax2 = nexttile;
     plot(datenum(time2), meandiam)
     datetick('x')
